@@ -9,6 +9,7 @@ module.exports = class extends React.Component {
   onFormSubmit = (evt) => {
     evt.preventDefault();
     console.log(this.refs.name.value);
+    console.log(this.refs)
   };
 
   render() {
